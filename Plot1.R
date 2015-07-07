@@ -1,6 +1,6 @@
 #Read data into variable and change class of columns that have factors into character vectors
 
-#This calculates how much memory is necessary before reading the file into RStudio
+#This calculates how much memory is necessary before reading the file into RStudio.
 object.size(read.csv("household_power_consumption.txt"))
 
 #This reads the file into R
